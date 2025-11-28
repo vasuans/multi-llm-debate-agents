@@ -1,5 +1,4 @@
 openai
-grok
 google-generativeai
 langgraph
 gradio

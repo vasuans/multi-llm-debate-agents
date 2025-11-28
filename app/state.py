@@ -12,6 +12,11 @@ class DebateState(TypedDict, total=False):
     question: str
     temperature: float
 
+    # Which models are used for this run
+    debater_a_model: str  # "openai" or "grok"
+    debater_b_model: str  # "openai" or "grok"
+    judge_model: str      # "gemini" or "openai"
+
     # Retrieved memory snippets (short past debates)
     memory_snippets: List[str]
 

@@ -24,7 +24,7 @@ if not GEMINI_API_KEY:
 
 # Low-cost / fast models (you can tweak these later)
 OPENAI_DEBATER_MODEL = "gpt-4.1-mini"        # OpenAI debater (cheap)
-GROK_DEBATER_MODEL = "grok-3-mini"           # Grok debater (xAI model) 
+GROK_DEBATER_MODEL = "grok-3-mini"           # Grok debater (xAI model)
 GEMINI_JUDGE_MODEL = "gemini-2.0-flash-lite" # Gemini judge
 
 # Default creativity (temperature) range
