@@ -1,0 +1,7 @@
+openai
+grok
+google-generativeai
+langgraph
+gradio
+python-dotenv
+chromadb
